@@ -1,0 +1,15 @@
+B, F, A, AL = map(int, input().split())
+
+if B != F and A != AL:
+    if B > F and A > AL:
+       print("Final: Brasil vs Argentima")
+    elif B < F and A < AL: 
+       print("Final: França vs Alemanha")
+    elif  B > F and A < AL:
+       print("Final: Brasil vs Alemanha")
+    elif  B < F and A > AL:
+       print("Final: França vs Argentina")   
+    
+    
+    
+ 
