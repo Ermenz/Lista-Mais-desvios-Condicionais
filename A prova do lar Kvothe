@@ -1,0 +1,17 @@
+
+V, R, X, T = map(int, input().split())
+
+V = V - T
+R = R - (1 * X *T)
+
+
+if V > 70 and R > 60:
+  print("A chama dança perfeitamente ao comando de Kvothe.")   
+elif  V > 50 and  R > 30:
+  print("A chama vacila, mas se mantém acesa.")  
+elif V > 30 and R > 10:
+  print("A chama oscila perigosamente. Concentre-se!")   
+else:
+  print( "A chama se apaga. Kvothe falhou.")
+
+    
